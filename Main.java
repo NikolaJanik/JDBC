@@ -4,7 +4,7 @@
  *
  */
 
-package zad1;
+package travel_offers;
 
 
 import java.io.*;
