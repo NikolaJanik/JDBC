@@ -1,4 +1,10 @@
-package zad1;
+/**
+ *
+ *  @author Janik Nikola 
+ *
+ */
+
+package travel_offers;
 
 import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
