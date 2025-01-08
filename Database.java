@@ -1,4 +1,10 @@
-package zad1;
+/**
+ *
+ *  @author Janik Nikola 
+ *
+ */
+
+package travel_offers;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
