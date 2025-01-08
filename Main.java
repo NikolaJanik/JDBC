@@ -1,6 +1,6 @@
 /**
  *
- *  @author Janik Nikola S31980
+ *  @author Janik Nikola 
  *
  */
 
@@ -21,7 +21,7 @@ public class Main {
       for (String od : odlist) System.out.println(od);
     }
     // --- część bazodanowa
-    String url = "jdbc:postgresql://localhost:5432/travel_offers?user=postgres&password=marcin790"; /*<-- tu należy wpisać URL bazy danych */
+    String url = "jdbc:postgresql://localhost:5432/travel_offers?user=postgres&password=TWOJE_HASLO"; /*<-- tu należy wpisać URL bazy danych i uzupełnić TWOJE_HASLO */
     Database db = new Database(url, travelData);
     db.create();
     db.showGui();
