@@ -1,6 +1,10 @@
 # Projekt "Biuro podóży" JDBC
 
-Celem projektu było przećwiczenie wykorzystania JDBC w praktyce oraz nauka mechanizmów internacjonalizacji aplikacji. 
+Cel projektu:
+
+Celem projektu była nauka stosowania JDBC w praktyce oraz przestudiowanie mechanizmów internacjonalizacji aplikacji. 
+
+Założenia projektu:
 
 Program symulowania biura podróży został stworzony tak, aby przychodzące od klientów pliki tekstowe zawierające opisy oferty były wpisywane do bazy danych (w tym przypadku PostgreSQL), a następnie były wyświetlane przy pomocy prostego GUI (JTable). Wyświetlana tabela z ofertami jest zinternacjonalizowana, czyli dostosowuje język oraz formatowanie daty i waluty według lokalizacji klienta. 
 Zakładam, że przesyłane pliki z ofertami (każda oferta jest w jednym wierszu pliku i zawiera, rozdzielone znakami tabulacji informacje) mają format:
@@ -23,4 +27,7 @@ Klasa TravelData ma za zadanie zinternacjonalizować wyświetlane w GUI dane.
 Dodatkwe pliki .txt w folderze Data zawierają dane do przetstowania działania aplikacji.
 W folderze Rosources znajdują się pliki .properties, które są dodatkowym źródłem wykorzystywanym przez mechanizm Resource Boundle. Przed uruchomieniem aplikacji należy się umewnić, że folder ten został odpowiednio dodany na classpath i jest używany jako źródło dancyh przez program. 
 
-UWAGA! Przed próbą uruchomienia aplikacji trzeba otworzyć bazę danych (PostrgreSQL), nawiązać połączenie z serwerem, mieć utworzoną bazę danych travel_ofers, a w niej tabelę z kolumnami o odpowiednich typach danych.
+UWAGA! Przed iruchomieniem aplikacji trzeba:
+- otworzyć bazę danych (PostrgreSQL) i nawiązać połączenie z serwerem
+- mieć utworzoną bazę danych travel_ofers,
+- w bazie danych powinna się znajdować tabela z kolumnami: id (PrimaryKey, integer), country (text), departure (date), return (date), place (text), price (real), currency (text).
