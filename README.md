@@ -29,7 +29,7 @@ symbol_waluty = PLN, USD itp.
 
 4. Dodatkwe pliki .txt w folderze Data zawierają dane do przetstowania działania aplikacji.
 
-5. W folderze Rosources znajdują się pliki .properties, które są dodatkowym źródłem wykorzystywanym przez mechanizm Resource Boundle. Przed uruchomieniem aplikacji należy się umewnić, że folder ten został odpowiednio dodany na classpath i jest używany jako źródło dancyh przez program. 
+5. W folderze Rosources znajdują się pliki .properties, które są dodatkowym źródłem wykorzystywanym przez mechanizm Resource Boundle. Przed uruchomieniem aplikacji należy się upewnić, że folder ten został odpowiednio dodany do classpath i jest używany jako źródło danych przez program. 
 
 **UWAGA!** Przed uruchomieniem aplikacji trzeba:
 - otworzyć bazę danych (PostrgreSQL) i nawiązać połączenie z serwerem
