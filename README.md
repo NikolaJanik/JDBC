@@ -2,7 +2,7 @@
 
 **Cel projektu:**
 
-Celem projektu była nauka stosowania JDBC w praktyce oraz przestudiowanie mechanizmów internacjonalizacji aplikacji. 
+Celem projektu było zapoznanie się z wykorzysteniem JDBC w praktyce oraz zastosowanie mechanizmów internacjonalizacji aplikacji. 
 
 **Założenia projektu:**
 
