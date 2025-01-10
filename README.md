@@ -31,7 +31,7 @@ symbol_waluty = PLN, USD itp.
 
 5. W folderze Rosources znajdują się pliki .properties, które są dodatkowym źródłem wykorzystywanym przez mechanizm Resource Boundle. Przed uruchomieniem aplikacji należy się upewnić, że folder ten został odpowiednio dodany do classpath i jest używany jako źródło danych przez program. 
 
-**UWAGA!** Przed uruchomieniem aplikacji trzeba:
+**UWAGA!** Przed uruchomieniem aplikacji należy:
 - otworzyć bazę danych (PostrgreSQL) i nawiązać połączenie z serwerem
 - mieć utworzoną bazę danych travel_ofers,
 - w bazie danych powinna się znajdować tabela z kolumnami: id (PrimaryKey, integer), country (text), departure (date), return (date), place (text), price (real), currency (text).
