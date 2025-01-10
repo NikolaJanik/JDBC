@@ -1,4 +1,4 @@
-# Projekt "Biuro podóży" JDBC
+# Projekt "Biuro podróży" JDBC
 
 **Cel projektu:**
 
