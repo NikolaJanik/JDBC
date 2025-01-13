@@ -1,5 +1,6 @@
-# Projekt "Biuro podróży" z JDBC
+# Project "Travel Agent" with JDBC
 
+**[PL]**
 **Cel projektu:**
 
 Projekt jest realizacją zadania z przedmiotu Uniwersalne Techniki Programowania. Celem projektu było wykorzysteniem JDBC w praktyce oraz zastosowanie mechanizmów internacjonalizacji aplikacji. 
@@ -35,3 +36,6 @@ symbol_waluty = PLN, USD itp.
 - otworzyć bazę danych (PostrgreSQL) i nawiązać połączenie z serwerem
 - mieć utworzoną bazę danych travel_ofers,
 - w bazie danych powinna się znajdować tabela z kolumnami: id (PrimaryKey, integer), country (text), departure (date), return (date), place (text), price (real), currency (text).
+
+
+**[EN]**
