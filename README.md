@@ -40,3 +40,37 @@ symbol_waluty = PLN, USD itp.
 
 
 **[EN]**
+
+**Project Objective:**
+
+The project is a task for the course "Universal Programming Techniques." Its aim was to apply JDBC in practice and implement application internationalization mechanisms.
+
+**Project Assumptions:**
+
+A travel agency simulation program was designed so that incoming text files from clients containing offer descriptions are written to a database (PostgreSQL in this case) and then displayed using a simple GUI (JTable). The displayed table of offers is internationalized, adjusting the language, date format, and currency formatting according to the client's locale.
+It is assumed that the transmitted offer files (each offer in one row of the file, with information separated by tab characters) have the following format:
+
+location_partner country departure_date return_date place price currency_symbol
+
+Where:
+
+location - a string indicating the language and country (e.g., pl_PL, en_US, as returned by the toString() method of the Locale class),
+country - the name of the country in the partner's language,
+dates (departure, return) - dates in the format YYYY-MM-DD (e.g., 2015-12-31),
+place - one of [sea, lake, mountains] in the partner's language,
+price - a number formatted according to the partner's locale,
+currency_symbol - e.g., PLN, USD, etc.
+
+**Package Contents Description:**
+
+1. Class Database handles all operations related to data processing, saving, and retrieving from the database. This class also contains a section of code for creating a simple user interface to display travel offers.
+2. Class TravelData is responsible for internationalizing the data displayed in the GUI.
+3. In Class Main, the line of code establishing a connection with the database needs to be completed.
+4. Additional .txt files in the Data folder contain data for testing the application.
+5. The Resources folder contains .properties files, which serve as an additional source utilized by the ResourceBundle mechanism. Before running the application, ensure that this folder is correctly added to the classpath and is used as a data source by the program.
+
+**IMPORTANT!** Before running the application:
+
+- Open the database (PostgreSQL) and connect to the server.
+- Ensure that a database named travel_offers is created.
+- The database should contain a table with the following columns: id (PrimaryKey, integer), country (text), departure (date), return (date), place (text), price (real), currency (text).
