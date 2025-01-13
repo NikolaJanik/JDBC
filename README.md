@@ -1,8 +1,8 @@
-# Projekt "Biuro podróży" JDBC
+# Projekt "Biuro podróży" z JDBC
 
 **Cel projektu:**
 
-Celem projektu było zapoznanie się z wykorzysteniem JDBC w praktyce oraz zastosowanie mechanizmów internacjonalizacji aplikacji. 
+Projekt jest realizacją zadania z przedmiotu Uniwersalne Techniki Programowania. Celem projektu było wykorzysteniem JDBC w praktyce oraz zastosowanie mechanizmów internacjonalizacji aplikacji. 
 
 **Założenia projektu:**
 
