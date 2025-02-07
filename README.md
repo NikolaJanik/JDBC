@@ -4,7 +4,7 @@
 
 **Cel projektu:**
 
-Projekt jest realizacją zadania z przedmiotu Uniwersalne Techniki Programowania. Celem projektu było wykorzysteniem JDBC w praktyce oraz zastosowanie mechanizmów internacjonalizacji aplikacji. 
+Projekt jest realizacją zadania z kursu programowania. Celem projektu było wykorzysteniem JDBC w praktyce oraz zastosowanie mechanizmów internacjonalizacji aplikacji. 
 
 **Założenia projektu:**
 
